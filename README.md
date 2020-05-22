@@ -15,7 +15,7 @@ de la consola la compilación y ejecución del código "UDPEchoClient.c" teniend
 A INTERNET dentro de la máquina a utilizar. La ejecución dentro de consola es de la siguiente manera:
 
   1. cd home/alse/Documents/Tercio3/version7  //Cambia el directorio base, al directorio donde se encuentra el proyecto
-  2. gcc UDPEchoClient.c -o UDPEchoClient.bin //Compila el proyecto en caso de error
+  2. gcc UDPEchoClient.c -o UDPEchoClient.bin //Compila el proyecto para verificar el buen funcionamiento
   3. ./UDPEchoClient.bin (ip del servidor del motor) (Carné del usuario válido) (Puerto de comunicación) //Ejecuta el proceso mediante los      argumentos de entrada.
   4. Verificar la validación de la comunicación y los archivos recibidos del servidor, dicha validación se verá dentro de un mensaje
      el cúal dirá "se guardaron los datos del motor".
